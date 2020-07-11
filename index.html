@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <title>Portfolio</title>
+        <link rel="icon" href="images/logo.png" >
+        <script src="https://kit.fontawesome.com/74c14c6858.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="lightbox/src/css/lightbox.css">
+        <script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
+    </head>
+    <body onpageshow="button()">
+        <header>
+            <h1>Mehul Jain</h1>
+            <nav >
+                <ul>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#ipskills">Interpersonal Skills</a></li>
+                    <li><a href="#internship">Internships</a></li>
+                    <li><a href="#certification">Certifications</a></li>
+                    <li><a href="#project">Project</a></li>
+                </ul>
+                
+            </nav>   
+        </header>
+        <div class='info' id="aboutme">
+            <h2>About Me</h2>
+            <img src="images/profilepic.jpg" alt="Profile Photo" />
+            <div>
+            <p>I'm Mehul Jayesh Jain </p>
+            <p>A Student of Electronics Department from Pillai College of Engineering, New Panvel </p>
+            <p>Vice Chairperson of IEEE PCE Student Chapter</p>
+            <ul>
+                <li><b>Branch:</b> Electronics Engineering</li>
+                <li><b>Current Semester:</b> VI </li>
+                <li><b>Birthday:</b> 8<sup>th</sup> October 1999</li>
+                <li><b>Hobbies:</b> Playing basketball, learning new programming languages</li>
+                <li><b>Email:</b>jainmehja17ee@student.mes.ac.in</li>
+                <li><b>Contact:</b> 9876543219</li>
+                <li><b>Address:</b> Vashi, Navi Mumbai</li>
+            </ul>
+            </div>
+            
+        </div>
+        <div id="edu" >
+            <h2>Education </h2>
+            <div class="education ">
+                <h3>School</h3>
+                <img src="images/school.png" alt="school logo">
+                <p>Sacred Heart High School & Jr College, Vashi</p>
+                <p>Marks Obtained (SSC): 80.60 %</p><br/>
+                <a href="images/marksheet.jpg" data-lightbox="image-1" target="_self">View Marksheet</a><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15083.191978432586!2d72.9913773!3d19.0726172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4766eaa74903813!2sSacred%20Heart%20High%20School%20%26%20Junior%20College!5e0!3m2!1sen!2sin!4v1590145786457!5m2!1sen!2sin"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                
+            </div>
+            <div class="education ">
+                <h3>Jr. College</h3>
+                <img src="images/jrclg.png" alt="jr college logo">
+                <p>karmaveer Bhaurao Patil College, Vashi</p>
+                <p>Marks Obtained (HSC): 82.62% </p><br/>
+                <a href="images/marksheet.jpg" data-lightbox="image-2" target="_self">View Marksheet</a><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1885.3358134055577!2d73.00048350807388!3d19.078169946771673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c13428f153c3%3A0xf792fe215d6dd901!2sKarmaveer%20Bhaurao%20Patil%20College!5e0!3m2!1sen!2sin!4v1590145929746!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                
+            </div>
+            <div class="education">
+                <h3>Degree College</h3>
+                <img src="images/pillai.png" alt="pillai college logo">
+                <p>Pillai College of Engineering, New Panvel</p>
+                <p>Marks Obtained (BE aggregate) : 9.6 CGPA</p><br/>
+                <a href="images/marksheet.jpg" data-lightbox="image-3" target="_self">View Marksheets</a><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.669434283395!2d73.12548141489991!3d18.990200987137168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel!5e0!3m2!1sen!2sin!4v1590146230480!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                
+            </div>
+        </div>
+        <div id="skills">
+                <h2>Skills</h2>
+                <button type="button" class="button_skill" id="button_left" onclick="skills_left()">&#10094;</button>
+                <figure class="skill fade"> 
+                    <img src="images/HTML5.png" alt="HTML logo"> 
+                    <figcaption>
+                    <label>HTML5</label><br>
+                    <progress value="60" max="100" title="60%">60%</progress>
+                    </figcaption>
+                </figure>
+                <figure class="skill fade" >
+                    <img src="images/CSS.png" alt="CSS3 logo" > 
+                    <figcaption>
+                    <label>CSS3</label><br>
+                    <progress value="40" max="100" title="40%">40%</progress>
+                    </figcaption>
+                </figure>
+                <figure class="skill fade">
+                    <img src="images/PYTHON.png" alt="python logo"> 
+                    <figcaption>
+                    <label>Python</label><br>
+                    <progress value="50" max="100" title="50%">50%</progress>
+                    </figcaption>
+                </figure>
+                <figure class="skill fade" >
+                    <img src="images/ARDUINO.png" alt="Arduino logo" >
+                    <figcaption>
+                    <label>Arduino</label><br>
+                    <progress value="70" max="100" title="70%">70%</progress>
+                    </figcaption>
+                </figure>
+                <figure class="skill fade">
+                    <img src="images/JS1.png" alt="js logo">
+                    <figcaption>
+                    <label>Javascript</label><br>
+                    <progress value="35" max="100" title="35%">35%</progress>
+                    </figcaption>      
+                </figure>
+                <figure class="skill fade">
+                    <img src="images/proteus.png" alt="proteus logo">
+                    <figcaption>
+                    <label>Proteus Software</label><br>
+                    <progress value="60" max="100" title="60%">60%</progress>
+                    </figcaption>      
+                </figure>
+                <button type="button" class="button_skill" id="button_right" onclick="skills_right()">&#10095;</button>
+        </div>
+        <div id="ipskills" >
+                <h2>Interpersonal Skills</h2>
+                <figure class="ip">
+                    <img src="images/LEADER.png" alt="leadership img" >
+                    <figcaption>Leadership</figcaption>
+                </figure>
+                <figure class="ip">
+                    <img src="images/PRESENTATION.png" alt="presentation img" >
+                    <figcaption>Presentation Skills</figcaption>
+                </figure>
+                <figure class="ip">
+                    <img src="images/TEAM.png" alt="team img" >
+                    <figcaption>Teamwork</figcaption>
+                </figure>
+                <figure class="ip">
+                    <img src="images/PROJECT.png" alt="project management img" >
+                    <figcaption>Project Management</figcaption>
+                </figure>
+        </div>
+        <div id="internship">
+            <h2>Internships</h2>
+            <div class="intern">
+                <h3>Sales and Marketing Intern</h3>
+                <img src="images/mycaptain.gif" alt="Climber logo"  >
+                <p>My job in the internship was to create awareness about the importance of Mycaptain courses<br>
+                    and to make students enrol in various courses available on the platform.</p>
+                <p><b>Duration:</b> 2 months</p>
+                <a href="images/internship.jpg" data-lightbox="intern-1" target="_self">View Certificate</a>
+            </div>
+            <div class="intern"> 
+                <h3>Web Design Intern</h3>
+                <img src="images/web.gif" alt="Webdesign logo" >
+                <p>My job in the internship was to learn the fundamentals of Webdesign and create website from sratch.<br>
+                    Finally learnt about Responsive Webdesign and Basics of Bootstrap.</p>
+                <p><b>Duration:</b> 1 month</p>
+                <a href="images/internship.jpg" data-lightbox="intern-2" target="_self">View Certificate</a>
+            </div>
+        </div>
+        <div id="certification">
+            <h2>Certifications</h2>
+            <div class="certi">
+                <a href="images/certificate.jpg" data-lightbox="certi-1"><img src="images/COURSERA.png" alt="Coursera logo"></a>
+                <p>Introduction to HTML5</p>
+            </div>
+            <div class="certi">
+                <a href="images/certificate.jpg" data-lightbox="certi-2"><img src="images/COURSERA.png" alt="Coursera logo"></a>
+                <p>Introduction to CSS3</p>
+            </div>
+            <div class="certi">
+                <a href="images/certificate.jpg" data-lightbox="certi-3"><img src="images/INTERNSHALA.png" alt="Coursera logo"></a>
+                <p>Front-End Development</p>
+            </div>
+            <div class="certi">
+                <a href="images/certificate.jpg" data-lightbox="certi-4"><img src="images/COURSERA.png" alt="Coursera logo" ></a>
+                <p>Interactivity with Javascript</p>
+            </div>
+
+        </div>
+        
+        <div id="project">
+            <h2 >Projects</h2>
+            <div class="project_button">
+                <button type="button" class="button_project" id="button_left_project" onclick="plusSlides(-1)">&#10094;</button>
+            </div>
+            <div class="project fade">
+                <h3>Digital Voltmeter with Regulated Power supply</h3>
+                <img src="images/voltmeter.jpg" alt="Voltmeter" >
+                <p><b>Duration:</b> 1 month</p>
+                <p>It can measure DC Voltage up to 50 Volts and display it on the 16x2 LCD screen,<br>
+                    and power supply which can provide a regulated dc voltage of 1-50 volts constant from <br>
+                    AC power supply using a full-wave bridge rectifier with a filter and LM317.</p><br/>
+                <a href="images/projects.png" data-lightbox="project-1" >View Project</a>
+            </div>
+            <div class="project fade">
+                <h3>7490 IC tester with audio</h3>
+                <img src="images/ictester.jpg" alt="IC tester" >
+                <p><b>Duration:</b> 2 months</p>
+                <p>The circuit consists of 2 options it checks whether the IC is Valid or not <br>
+                    and also tests whether IC is perfect or Faulty. The result is displayed on a <br>
+                    16x2 LCD screen and through audio by speaker connected to it. IC tester checks the logic of 7490.</p><br/>
+                <a href="images/projects.png" data-lightbox="project-2">View Project</a>
+            </div>
+            <div class="project fade">
+                <h3>3-D Ping Pong with gesture control</h3>
+                <img src="images/3dpingpong.jpg" alt="3D Ping Pong" >
+                <p><b>Duration:</b> 2 months</p>
+                <p>The game controlling action is performed through keyboard and MPU 6050 sensor with Arduino and designed <br>
+                    in Unity 3D software. It is a Multiplayer and Multilevel game with instructions defined and pause function.</p><br/>
+                <a href="images/projects.png" data-lightbox="project-3">View project</a>
+            </div>
+            <div class="project_button">
+                <button type="button"  class="button_project"  id="button_right_project" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+            
+        </div>
+
+    <footer>
+        <hr> <br/>
+        <a href="mailto:jainmehja17ee@student.mes.ac.in" target="_blank" ><i class="fas fa-paper-plane fa-2x"></i></a>
+        <a href="https://www.facebook.com/mejainmehul" target="_blank"><i class="fab fa-facebook fa-2x" ></i></a>
+        <a href="https://www.instagram.com/mj_rules_/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/mejainmehul" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+    </footer>  
+    </body>
+</html>

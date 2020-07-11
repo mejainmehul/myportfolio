@@ -1,0 +1,259 @@
+*{
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #2F2D2E ;
+}
+
+header{
+    position: sticky;
+    top:0%;
+    background-color: #9FC658;
+    padding: 1vw;
+    z-index: 2;
+}
+h1 {
+
+    font-size: 2.5vw;
+    display: inline-block;
+    
+}
+
+nav {
+    
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+}
+nav ul li {
+    
+    margin-top: 2%;
+    font-size: 1.7vw;
+    display: inline-block;
+    padding: 0px 0.5vw;
+}
+nav ul li a{
+    color: #2F2D2E;
+}
+nav ul li a:hover{
+    color: #D3E5B3;
+    transition-duration: 500ms;
+    font-size: 2vw;
+}
+a{
+
+    color: #2F2D2E;
+    text-decoration: none;
+}
+
+h2{
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+    font-size: 3vw;
+    text-align: center;
+
+}
+h3{
+    margin: 1vw 0;
+    font-size: 2vw;
+}
+#aboutme,#edu,#skills,#ipskills,#internship,#certification,#project{
+    padding: 4vw 0;
+    margin: 5vw 2vw;
+    border-radius: 5vw;
+    background-color: #B9D585;
+    color: #2F2D2E;
+}
+
+.info img{
+    margin-left: 10%;
+    box-sizing: border-box;
+    width: 12vw;
+    display: inline-block;
+    border-radius: 4%;
+}
+.info div {
+    box-sizing: border-box;
+    margin-left: 8%;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+#edu{
+    text-align: center;
+}
+.education{
+    background-color: #A8CB67;
+    margin: 0 0.5vw;
+    border: solid black 0.1vw;
+    font-size: 1.2vw;
+    text-align: center;
+    width: 28.5vw;
+    display: inline-block;
+}
+.education:hover{
+    background-color: #95C149;
+}
+.education img{
+    width: 25%;
+    margin-bottom: 7%;
+}
+.education iframe {
+    margin: 7% 0%;
+    width: 40%;
+    height: 11vw;
+    border: solid black 1px;
+}
+.education a{
+    color: black;
+}
+.education a:hover{
+    color: #EEF5E1;
+    font-size: 1.5vw;
+    transition: 500ms;
+}
+#skills{
+    text-align: center;
+}
+.button_skill {
+    background-color: #B9D585;
+    position: relative;
+    bottom: 5vw;
+    font-size: 3vw;
+    padding: 4vw 2vw;
+    border: none;
+}
+.button_skill:hover{
+    background-color: #AFD076;
+}
+.skill{
+    display: inline-block;
+    text-align: center;
+    margin: 2vw;
+    font-size: 1.6vw;
+}
+.skill img{
+    height: 6vw;
+    width:6vw;  
+    margin-bottom: 8%;  
+}
+#ipskills{
+    text-align: center;
+}
+.ip {
+    display: inline-block;
+    text-align: center;
+    font-size: 2vw;
+    margin: 1.7vw 5vw;
+    
+}
+.ip img{
+    width: 7vw;
+    
+}
+#internship{
+    font-size: 3vw;
+}
+.intern{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.intern a:hover{
+    color: #EEF5E1;
+    font-size: 1.7vw;
+    transition: 500ms;
+}
+.intern img{
+    height: 10vw;
+    width: 20vw;
+}
+.certi{
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    margin:2vw 0 ;
+    font-size: 2vw;
+}
+.certi img{
+    border-radius: 10vw;
+    margin-bottom: 1vw;
+    width: 20vw;
+}
+.certi img:hover{
+
+    width: 21vw;
+    transition-duration: 500ms;
+    
+}
+#project{
+    text-align: center;
+}
+.project{
+    text-align: center;
+    width: 70%;
+    margin: 2% 5%;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+h3{
+    font-size: 2vw;
+}
+.project img{
+    border-radius: 4%;
+    width: 30%;
+    height: 30%;
+    margin: 2%;
+}
+.project a:hover{
+    color: #EEF5E1;
+    font-size: 1.7vw;
+    transition: 500ms;
+}
+.button_project {
+    background-color: #B9D585;
+    position: relative;
+    bottom: 12vw;
+    font-size: 3vw;
+    padding: 10vw 3vw;
+    border: none;
+}
+.button_project:hover{
+    background-color: #AFD076;
+}
+footer{
+    text-align: center;
+    padding: 2vw;
+}
+footer a{
+
+    margin: 1vw;
+    color: #99C24D;
+}
+footer a:hover{
+    transition-duration: 500ms;
+    color:  #D3E5B3;
+    font-size: 1.2em;
+}
+.project_button{
+    
+    display: inline-block;
+
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
